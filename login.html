@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <div class="google">
+      <div class="goog">
+        <h2>REGISTRATION</h2><br>
+      </div>
+     <label>Email or Phone</label><br>
+     <input id="email" type="email" type="email" placeholder="@gmail.com"></input>
+     <span id="email-error"></span><br><br>
+     <label>password</label><br>
+     <input id="password" type="password" name="password" ><i class="fa-solid fa-eye-slash"></i></input>
+     <span id="password-error"></span><br>
+     <a href="filepath">forget password?</a><br><br>
+     <button class="submit-btn" type="button" onclick="email()">Submit</button><br><br>
+     <h5>Not your computer?<strong style="color: goldenrod;">Use Guest mode to sign in privately.</strong></h5>
+   </div>
+
+   <script>
+    function email(){
+    var mail = document.getElementById("email");
+    var mailER = document.getElementById("email-error");
+
+    if(mail.value ==''){
+      mailER.innerHTML = "put your correct mail";
+      mail.style.borderColor = "red";
+      return'';
+    }
+    else{
+      mailER.innerHTML = " ";
+      mail.style.borderColor = "green";
+    }
+
+    var pass = document.getElementById("password");
+    var passER = document.getElementById("password-error");
+
+    if(pass.value ==''){
+      passER.innerHTML = "put your correct password";
+      pass.style.borderColor = "red";
+      return'';
+    }
+    else if(pass.value.length !==8){
+      passER.innerHTML = "put your must be 10 digits";
+      pass.style.borderColor = "red";
+    }
+    else{
+      passER.innerHTML = " ";
+      pass.style.borderColor = "green";
+    }
+
+
+
+    var mail ={
+      Mail:mail,
+      Pass:pass,
+    };
+
+
+        var  email = JSON.parse(localStorage.getItem('google')) || [];
+        email.push(mail);
+        localStorage.setItem('google',JSON.stringify(email));
+
+
+    window.location.href = "./web.html"
+  }
+   </script>
+</body>
+</html>

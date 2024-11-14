@@ -1,0 +1,333 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+    background-image: url(./img/backng.jpg);
+    background-size: contain;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    box-shadow: white 0px 3px 8px;
+    background:linear-gradient(skyblue,white)  ;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid transparent;
+   
+}
+.logo ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.logo ul li a{
+    color: black;
+    padding: 0px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: .3px;
+    text-decoration-line: none;
+    line-height: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    padding: 10px;
+   
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    font-size: 15px;
+    margin: 40px;
+    height: 35px;
+    line-height: 24px;
+    width: 200px;
+    padding: 8px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.dtl{
+    display: flex;
+    padding: 0px 80px;
+    cursor: pointer;
+}
+.dtl a{
+    color: black;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 700px;
+}
+img{
+   width: 1350px;
+   height: 600px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.back h1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    
+}
+.metals{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.metals .things{
+    width: 250px;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.things{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid skyblue;
+}
+.things:hover{
+    transform: scale(1.05);
+}
+.things img{
+    width: 200px;
+    height: 200px;
+    border: black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.things h4{
+    text-align: center;
+    padding-left: 84px;
+    margin-top: -10px;
+    color: black;
+}
+.things p{
+    text-align: center;
+    padding-left: 84px;
+    margin-top: -20px;
+    color: black;
+}
+.meta img{
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 650px;
+}
+.meta h5{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 480px;
+    text-align: center;
+    font-size: xx-large;
+}
+.meta p{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 450px;
+    text-align: center;
+    font-size: large;
+}
+.dmd h1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 40px;
+}  
+.dia{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.dia .gld{
+        width: 250px;
+        height: 300px;
+        border-radius: 20px;
+        margin-left: 120px;
+        margin-right: 20px;
+        padding-top: 10px;
+}
+.gld:hover{
+    transform: scale(1.05);
+}
+.gld img{
+    width: 300px;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+.gld h5{
+        text-align: center;
+        padding-left: 84px;
+        margin-top: 30px;
+        font-size: 25px;
+        color: black;
+}
+.gld p{
+    text-align: center;
+    padding-left: 84px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+.met{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.met .mts{
+        width: 250px;
+        height: 300px;
+        border-radius: 20px;
+        margin-left: 120px;
+        margin-right: 20px;
+        padding-top: 10px;
+}
+.mts:hover{
+    transform: scale(1.05);
+}
+.mts img{
+    width: 300px;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+.mts h5{
+        text-align: center;
+        padding-left: 84px;
+        padding-top: 30px;
+        font-size: 25px;
+        color: black;
+}
+
+.metls h1{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.high{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.high img{
+    width: 600px;
+    height: 500px;
+    margin-top: 250px;
+    margin-left: 140px;
+}
+.high form{
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    font-size: large;
+    margin-top: 140px;
+}
+.high form img{
+    width: 100px;
+    height: 80px;
+    margin-top: 1px;
+    padding-right: 20px; 
+}
+.quick img{
+    width: 120px;
+    height: 70px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 630px;
+}
+.quick h1{
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 480px;
+    text-align: center;
+    font-size: xx-large;
+}
+.quick p{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 490px;
+    text-align: center;
+    font-size: x-large;
+}
+.cont img{
+    width: 150px;
+    height: 90px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 620px;
+}
+.contact {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 380px;
+}
+.contact h2{
+    font-size: 18px;
+    margin-left: 40px;
+}
+.contact h3{
+    font-size: 19px;
+    margin-left: 40px;
+}
+.contact h4{
+    font-size: 19px;
+    margin-left: 40px;
+}
+.contact h5{
+    font-size: 20px;
+    margin-left: 40px;
+}   
+.icons{
+    display: flex;
+    cursor: pointer;
+    margin-left: 590px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.fa-brands{
+    padding-left: 25px;
+}
+.fa-solid{
+    padding-left: 25px;
+}

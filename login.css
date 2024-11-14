@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+}
+body{
+   background-image: url(./img/backround.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.google{
+    width: 500px;
+    height: 300px;
+    margin: 100px;
+    margin-left: 400px;
+    margin-top: 150px;
+    border-radius: 90px;
+    border:2px solid goldenrod;
+    backdrop-filter: blur( 0.5px );
+   -webkit-backdrop-filter: blur( 0.1px );
+    background-color: transparent;
+    h5{
+        text-align: center;
+        margin-right: 10px;
+    }
+}
+.goog{
+    color: goldenrod;
+    padding-top: 15px;
+    text-align: center;
+}
+label{
+    color: goldenrod;
+    margin-top: 40PX;
+    padding-left: 90px;
+}
+span{
+    padding-left: 90px;
+    color: red;
+}
+input{
+    margin-left: 90px;
+    width: 300px;
+    height: 22px;
+    border-radius: 12px;
+}
+a{
+    color: goldenrod;
+    padding-left: 290px;
+    text-decoration-line: none; 
+}
+.submit-btn{
+    margin-left: 150px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:goldenrod;
+    color: white;
+}

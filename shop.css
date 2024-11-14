@@ -1,0 +1,142 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    box-shadow: white 0px 3px 8px;
+    background: linear-gradient(skyblue,white);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid transparent;
+   
+}
+.logo ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.logo ul li a{
+    color: black;
+    padding: 0px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: .3px;
+    text-decoration-line: none;
+    line-height: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    padding: 10px;
+   
+}
+.shop{
+    position: fixed;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    font-size: 15px;
+    margin: 40px;
+    height: 35px;
+    line-height: 24px;
+    width: 200px;
+    padding: 8px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.dtl{
+    display: flex;
+    padding: 0px 80px;
+    cursor: pointer;
+}
+.dtl a{
+    color: black;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.gee img{
+    width: 250px;
+    height: 260px;
+    margin-top: 60px;
+    margin-left: 550px;
+}
+.gee h5{
+    font-size: x-large;
+    margin-left: 565px;
+}
+.gee p{
+    font-size: x-large;
+    margin-left: 540px;
+}
+.gee a{
+    font-size: x-large;
+    margin-left: 600px;
+}
+button{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background-color:skyblue;
+}
+.contact {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 380px;
+}
+.contact h2{
+    font-size: 18px;
+    margin-left: 40px;
+}
+.contact h3{
+    font-size: 19px;
+    margin-left: 40px;
+}
+.contact h4{
+    font-size: 19px;
+    margin-left: 40px;
+}
+.contact h5{
+    font-size: 20px;
+    margin-left: 40px;
+}   
+.icons{
+    display: flex;
+    cursor: pointer;
+    margin-left: 570px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.fa-brands{
+    padding-left: 25px;
+}
+.fa-solid{
+    padding-left: 25px;
+}
